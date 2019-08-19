@@ -1,0 +1,154 @@
+body{
+background-color:#9c9f84;
+margin:0px;
+font-family:Verdana, Georgia, serif;
+font-size:14px;
+}
+
+/* Header Section =============*/
+#header{
+background-color: #5c755e;
+margin:10px;
+height:90px;
+border-radius:5px;
+}
+img{
+	float:right;
+	max-width:100%;
+	max-height:100%;
+
+	/*display:block;
+	margin-left:auto;
+	margin-right:auto;
+	use tis to center your logo*/
+
+}
+
+/*Navigation section ==========*/
+#navbar ul{
+list-style-type:none;
+text-align:center;
+background-color:#000;
+margin:10px;
+border-radius:5px;
+padding:5px;
+/*we sytle the ul rather because we want the box model*/
+}
+#navbar ul li{
+	display:inline;
+	/*we dont need to put the ul but its just good practice to*/
+}
+#navbar ul li a{
+	text-decoration:none;
+	font-family:Arial;
+	padding: .2em 1em;
+	color:#fff;
+	background-color:#000;
+	/*takes care of the botton*/
+}
+#navbar ul li a:hover{
+	color:#000;
+	background-color:#fff;
+}
+
+/*Main section==========*/
+.main{
+background-color:#e5e4d7;
+margin-left:10px;
+margin-right:320px;
+margin-top:10px;
+margin-bottom:10px;
+
+border-radius:5px;
+padding:20px;
+font-size:110%;
+/*we dont put height here because we want it to size appropraitely, issa dynamic place*/
+}
+
+/*Heading section*/
+h1{
+	font-size:120%;
+	color:#ce282e;
+}
+h2{
+	font-size:120%;
+	color:darkblue;
+}
+h3{
+	font-size:250%;
+	text-align:center;
+	color:#e5e4d7;
+	font-family:"Century Gothic";
+	margin:0px;
+
+	position:relative;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	-ms-transform:translateY(-50%);
+	transform:translateY(-50%);
+}
+
+/*Sidebar =============*/
+.sideright{
+background-color:#e5e4d7;
+margin:0px 10px 10px 10px;
+border-radius:5px;
+padding:20px;
+font-size:105%;
+float:right;
+width:260px;
+clear:right;
+/*it makes every stay in a top down way not right-left*/
+/*when you float, you must give width,and abovethe main div, and consequently left or right margin*/
+}
+
+.imagesidebar{
+
+margin:0px 10px 10px 10px;
+border-radius:5px;
+float:right;
+width:300px;
+clear:right;
+opacity:1.0;
+transition:opacity 0.5s ease-in-out;
+}
+.imagesidebar:hover{
+	opacity:0.4;
+}
+
+/*footer page=========*/
+#footer{
+background-color:#5c755e;
+margin:10px;
+height:60px;
+clear:both;
+border-radius:5px;
+color:#efe5d0;
+text-align:center;
+padding:15px;
+font-size:90%;
+}
+#footer ul{
+list-style-type:none;
+text-align:center;
+margin:10px;
+border-radius:5px;
+padding:5px;
+/*we sytle the ul rather because we want the box model*/
+}
+#footer ul li{
+	display:inline;
+	/*we dont need to put the ul but its just good practice to*/
+}
+#footer ul li a{
+	text-decoration:none;
+	font-family:Arial;
+	padding: .2em 1em;
+	color:#efe5d0;
+	background-color:#5c755e;
+	/*takes care of the botton*/
+}
+#footer ul li a:hover{
+	color:#000;
+	background-color:#fff;
+}
